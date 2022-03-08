@@ -15,6 +15,19 @@ a {
   text-decoration: none;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  padding-right: 20px;
+}
+
 /* background image */
 .wallpaper {
   display: block;
@@ -25,4 +38,9 @@ a {
   background-position: center;
   opacity: 0.2;
   position: fixed;
+}
+/*display content of main element with flex box */
+main {
+  display: flex;
+  justify-content: space-around;
 }
