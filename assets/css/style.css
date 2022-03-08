@@ -1,0 +1,28 @@
+/* overall properties selector */
+
+* {
+  background-color: #45bb4d;
+  /* background-image: linear-gradient(to bottom right, #168f28, #54e49a); */
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+/* styling the links */
+a {
+  cursor: pointer;
+  color: currentColor;
+  text-decoration: none;
+}
+
+/* background image */
+.wallpaper {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/background.jpeg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  position: fixed;
+}
