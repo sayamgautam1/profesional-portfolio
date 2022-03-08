@@ -33,6 +33,8 @@ nav ul li {
   display: block;
   height: 100%;
   width: 100%;
+  left: 0;
+  top: 0;
   background-image: url(../images/background.jpeg);
   background-size: cover;
   background-position: center;
@@ -43,4 +45,28 @@ nav ul li {
 main {
   display: flex;
   justify-content: space-around;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.about {
+  max-width: 50%;
+  flex: 1 1 400px;
+}
+.side {
+  max-width: 50%;
+  max-height: 500px;
+  flex-grow: 0 0 400px;
+}
+
+.picture-image {
+  border-radius: 4545px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  z-index: 1;
+  position: absolute;
+  right: 40px;
 }
