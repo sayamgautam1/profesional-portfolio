@@ -7,7 +7,9 @@
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
 }
-
+*body {
+  height: 100vh;
+}
 /* styling the links */
 a {
   cursor: pointer;
@@ -19,8 +21,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 50px;
-  margin-bottom: 50px;
+  height: 100px;
+
   padding: 50px;
 }
 nav ul {
@@ -32,8 +34,14 @@ nav ul li {
   padding-right: 20px;
 }
 
+.logo {
+  object-fit: contain;
+  width: 100px;
+  border-radius: 3333px;
+}
+
 /* background image */
-.wallpaper {
+/* .wallpaper {
   display: block;
   height: 100%;
   width: 100%;
@@ -44,36 +52,28 @@ nav ul li {
   background-position: center;
   opacity: 0.3;
   position: fixed;
-}
+} */
 /*display content of main element with flex box */
 main {
   display: flex;
   justify-content: space-around;
-  justify-content: space-evenly;
-  height: 100%;
-  width: 100%;
-  margin-top: 70px;
-  margin-left: 50px;
-  margin-right: 50px;
   align-items: center;
+  height: 400px;
+  padding: 25px;
+}
+.about {
+  flex: 0 0 auto;
 }
 
-.about {
-  max-width: 50%;
-  flex: 1 1 400px;
-}
 .side {
-  max-width: 50%;
-  max-height: 500px;
-  flex-grow: 0 0 400px;
+  flex: 0 0 auto;
 }
 
 .picture-image {
-  border-radius: 4545px;
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  z-index: 1;
-  position: absolute;
+  max-width: 250px;
+  max-height: 250px;
+  height: auto;
+  z-index: 99;
+  /* position: absolute; */
   right: 40px;
 }
