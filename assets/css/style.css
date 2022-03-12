@@ -1,5 +1,7 @@
 /* overall properties selector */
-
+:root {
+  --light-font-shade: rgb(105, 105, 105);
+}
 * {
   background-color: fff;
   /* background-image: linear-gradient(to bottom right, #168f28, #54e49a); */
@@ -76,7 +78,7 @@ nav ul li {
   width: 250px;
   height: 250px;
   border-radius: 5555px;
-  box-shadow: 5px 10px #303030;
+  box-shadow: 5px 10px var(--light-font-shade);
 }
 
 /*styling projects section */
@@ -92,9 +94,9 @@ nav ul li {
   transform: scale(1);
 }
 
-.project-heading + p {
+.project-heading-desp {
   margin: 50px 0px;
-  color: rgb(105, 105, 105);
+  color: var(--light-font-shade);
   width: 100%;
   font-style: normal;
   font-weight: normal;
@@ -122,8 +124,17 @@ nav ul li {
   background-position: 50% 50%;
   background-color: bisque;
 }
-p {
+.project-desp {
   text-align: center;
+  margin: 10px 0px 20px;
+  color: var(--light-font-shade);
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 184.69%;
+  letter-spacing: 0.03em;
+  max-width: unset;
 }
 .project-image-soon {
   background-image: url(/assets/images/comingsoon.png);
@@ -153,10 +164,10 @@ p {
 .project-box:hover {
   width: 100%;
   height: 310px;
-  box-shadow: 5px 10px #303030;
+  box-shadow: 5px 10px var(--light-font-shade);
 }
 .project-box-soon:hover {
   width: 100%;
   height: 55%;
-  box-shadow: 5px 10px #303030;
+  box-shadow: 5px 10px var(--light-font-shade);
 }
