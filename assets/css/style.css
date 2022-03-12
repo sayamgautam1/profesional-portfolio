@@ -82,6 +82,7 @@ nav ul li {
 }
 
 /*styling projects section */
+/*heding of the project section */
 .projects {
   display: block;
   height: 100vh;
@@ -104,11 +105,15 @@ nav ul li {
   line-height: 184.69%;
   letter-spacing: 0.03em;
 }
+
+/*section inside the project page containg all the needed boxes */
 .project-subcontainer {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
 }
 
 .project-box {
@@ -117,6 +122,7 @@ nav ul li {
   border-radius: 4px;
   transition-duration: 0.3s;
   border: 5px solid rgb(11, 11, 11);
+  border-radius: 5px;
 }
 .project-image {
   background-image: url(/assets/images/etch-a-sketch.png);
@@ -136,6 +142,8 @@ nav ul li {
   letter-spacing: 0.03em;
   max-width: unset;
 }
+
+/*project place holder divs */
 .project-image-soon {
   background-image: url(/assets/images/comingsoon.png);
   background-size: cover;
@@ -148,6 +156,7 @@ nav ul li {
   border-radius: 4px;
   transition-duration: 0.3s;
   border: 5px solid rgb(9, 9, 9);
+  border-radius: 5px;
 }
 .project-etch-a-sketch {
   flex: 0 0 40%;
