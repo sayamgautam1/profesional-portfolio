@@ -1,6 +1,7 @@
 /* overall properties selector */
 :root {
   --light-font-shade: rgb(105, 105, 105);
+  --blue-light: rgb(180, 224, 232);
 }
 * {
   background-color: fff;
@@ -70,7 +71,7 @@ nav ul li {
 
 /*styling inside the about section*/
 .job {
-  color: rgb(180, 224, 232);
+  color: var(--blue-light);
 }
 
 /*styling inside the side section*/
@@ -97,7 +98,7 @@ nav ul li {
 
 .project-heading-desp {
   margin: 50px 0px;
-  color: var(--light-font-shade);
+  color: var(--blue-light);
   width: 100%;
   font-style: normal;
   font-weight: normal;
