@@ -84,19 +84,26 @@ nav ul li {
 
 /*styling projects section */
 /*heding of the project section */
-.projects {
+/*heading of contact section*/
+.projects,
+.contact-info {
   display: block;
   height: 100vh;
 }
-.project-heading {
+.project-heading,
+.contact-header {
   text-align: center;
 }
 .project-heading > h2 {
   font-size: 40px;
   transform: scale(1);
 }
-
-.project-heading-desp {
+.contact-header > h2 {
+  font-size: 40px;
+  transform: scale(1);
+}
+.project-heading-desp,
+.contact-heading-desp {
   margin: 50px 0px;
   color: var(--blue-light);
   width: 100%;
@@ -194,4 +201,7 @@ nav ul li {
   font-size: 20px;
   line-height: 1;
   padding: 20px 25px;
+}
+.contact:hover {
+  box-shadow: 0 15px 25px var(--light-font-shade);
 }
