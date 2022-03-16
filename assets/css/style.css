@@ -6,14 +6,15 @@
 }
 * {
   background-color: fff;
-  /* background-image: linear-gradient(to bottom right, #168f28, #54e49a); */
   color: black;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   box-sizing: border-box;
   font-family: Muli, sans-serif;
   text-decoration: none;
+  margin: 50px;
 }
 /* styling the links */
 a {
@@ -26,8 +27,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
-
   padding: 50px;
 }
 nav ul {
@@ -69,7 +68,7 @@ ul a:hover::after {
 .logo {
   object-fit: contain;
   width: 100px;
-  border-radius: 3333px;
+  border-radius: 50%;
   box-shadow: 0 5px 10px var(--light-font-shade);
   display: inline-block;
 }
@@ -77,21 +76,18 @@ ul a:hover::after {
 /*display content of main element with flex box */
 .content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   height: 100vh;
   padding: 20px;
-  margin: 25px auto;
   animation: 0.6s ease-in-out 0.3s 1 normal forwards running;
 }
 .about {
   flex: 0 0 auto;
   font-weight: 700;
-  font-size: 4vw;
+  font-size: 3em;
   line-height: 129.69%;
-  letter-spacing: 0.03em;
-  margin-bottom: 0px;
-  margin-left: 0px;
 }
 
 .side {
@@ -107,8 +103,9 @@ ul a:hover::after {
 .picture-image {
   width: 250px;
   height: 250px;
-  border-radius: 5555px;
-  box-shadow: 5px 10px var(--light-font-shade);
+  border-radius: 50%;
+  box-shadow: 5px 10px var(--blue-light);
+  object-fit: cover;
 }
 
 /*styling projects section */
@@ -118,6 +115,7 @@ ul a:hover::after {
 .contact-info {
   display: block;
   height: 100vh;
+  padding-top: 10vh;
 }
 .project-heading,
 .contact-header {
@@ -140,7 +138,6 @@ ul a:hover::after {
   font-weight: normal;
   font-size: 26px;
   line-height: 184.69%;
-  letter-spacing: 0.03em;
 }
 
 /*section inside the project page containg all the needed boxes */
@@ -160,7 +157,7 @@ ul a:hover::after {
   border-radius: 5px;
 }
 .project-image {
-  background: linear-gradient(rgba(187, 128, 128, 0.5), rgb(180, 224, 232, 0.5)),
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(180, 224, 232, 0.5)),
     url(/assets/images/etch-a-sketch.png);
   background-size: cover;
   background-position: 50% 50%;
@@ -181,7 +178,7 @@ ul a:hover::after {
 
 /*project place holder divs */
 .project-image-soon {
-  background: linear-gradient(rgba(187, 128, 128, 0.5), rgb(180, 224, 232, 0.5)),
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(180, 224, 232, 0.5)),
     url(/assets/images/comingsoon.png);
   background-size: cover;
   background-position: 50% 50%;
