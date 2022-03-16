@@ -64,10 +64,13 @@ ul a:hover::after {
 }
 
 /*positon the logo to be displayed as desired */
+/*adding box shadow to make the logo in 3d view */
 .logo {
   object-fit: contain;
   width: 100px;
   border-radius: 3333px;
+  box-shadow: 0 5px 10px var(--light-font-shade);
+  display: inline-block;
 }
 
 /*display content of main element with flex box */
