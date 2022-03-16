@@ -2,13 +2,13 @@
 :root {
   --light-font-shade: rgb(105, 105, 105);
   --blue-light: rgb(180, 224, 232);
+  --background: black;
 }
 * {
   background-color: fff;
   /* background-image: linear-gradient(to bottom right, #168f28, #54e49a); */
   color: black;
   font-family: "Quicksand", sans-serif;
-  font-size: 16px;
 }
 body {
   box-sizing: border-box;
@@ -142,10 +142,8 @@ ul a:hover::after {
 /*section inside the project page containg all the needed boxes */
 .project-subcontainer {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 10px;
   padding: 10px;
 }
 
