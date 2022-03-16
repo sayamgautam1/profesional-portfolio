@@ -222,6 +222,7 @@ ul a:hover::after {
 }
 
 /*contact section */
+
 .contact {
   cursor: pointer;
   color: black;
@@ -236,4 +237,36 @@ ul a:hover::after {
 }
 .contact:hover {
   box-shadow: 0 15px 25px var(--blue-light);
+}
+
+/*styling icons in contact section*/
+.contact-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.icons {
+  display: flex;
+  margin-top: 1em;
+}
+
+.icons li {
+  height: 2em;
+  padding-right: 1em;
+  text-align: center;
+  width: fit-content;
+}
+/*each list items acts as a flex container so syling each icons */
+.icons a {
+  align-items: center;
+  font-size: 2.5em;
+  height: fit-content;
+  opacity: 0.5;
+}
+
+.icons a:hover {
+  opacity: 1;
+}
+
+.fa-brands:hover {
+  color: var(--blue-light);
 }
