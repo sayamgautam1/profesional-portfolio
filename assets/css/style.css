@@ -270,3 +270,51 @@ ul a:hover::after {
 .fa-brands:hover {
   color: var(--blue-light);
 }
+
+/*media query */
+@media screen and (max-width: 799px) {
+  body {
+    margin: 10px;
+  }
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+  }
+  nav ul li {
+    padding-top: 1em;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about {
+    order: 2;
+  }
+  .side {
+    padding: 2em;
+  }
+  .project-subcontainer {
+    flex-direction: column;
+  }
+  .coming-soon-image {
+    height: 20px;
+    width: 100%;
+  }
+
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    width: max-content;
+  }
+}
