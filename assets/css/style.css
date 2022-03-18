@@ -292,7 +292,7 @@ ul a:hover::after {
 }
 
 /*media query */
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 420px) {
   body {
     margin: 10px;
   }
@@ -336,5 +336,11 @@ ul a:hover::after {
   }
   .contact {
     width: max-content;
+    margin-bottom: 15px;
+  }
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
