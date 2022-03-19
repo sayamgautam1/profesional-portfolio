@@ -2,12 +2,10 @@
 :root {
   --light-font-shade: rgb(105, 105, 105);
   --blue-light: rgb(180, 224, 232);
-  --background: black;
 }
 * {
   background-color: fff;
   color: black;
-  font-family: "Quicksand", sans-serif;
   scroll-behavior: smooth;
 }
 body {
@@ -16,6 +14,8 @@ body {
   text-decoration: none;
   margin: 50px auto;
   max-width: 1024px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 /* styling the links */
 a {
