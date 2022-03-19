@@ -77,7 +77,7 @@ ul a:hover::after {
 /*display content of main element with flex box */
 .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
   min-height: 100vh;
@@ -177,7 +177,18 @@ ul a:hover::after {
   letter-spacing: 0.03em;
   max-width: unset;
 }
-
+.project-desp-etch {
+  text-align: center;
+  padding-top: 10px;
+  color: var(--light-font-shade);
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 184.69%;
+  letter-spacing: 0.03em;
+  max-width: unset;
+}
 /*project place holder divs */
 .coming-soon-image {
   /* background: linear-gradient(rgb(255, 255, 255, 0.5), rgb(180, 224, 232, 0.5)); */
