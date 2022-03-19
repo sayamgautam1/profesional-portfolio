@@ -13,7 +13,6 @@
 /*applying specivic properties to the body such that it is not replaced by reset.css*/
 body {
   box-sizing: border-box;
-  font-family: Muli, sans-serif;
   text-decoration: none;
   margin: 50px auto;
   max-width: 1024px;
@@ -370,6 +369,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+    min-height: 80vh;
   }
   .about {
     order: 2;
@@ -382,6 +382,10 @@ footer {
   }
   .coming-soon {
     padding-top: 15px;
+  }
+
+  .contact-info {
+    min-height: 70vh;
   }
 
   .contact-buttons {
@@ -423,7 +427,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 100vh;
+    min-height: 75vh;
   }
   .about {
     order: 2;
@@ -444,7 +448,8 @@ footer {
     flex: 1;
   }
   .contact-info {
-    min-height: 100vh;
+    min-height: 75vh;
+    padding-top: 10vh;
   }
   .contact-buttons {
     display: flex;
