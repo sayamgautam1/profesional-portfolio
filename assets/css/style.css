@@ -74,6 +74,13 @@ ul a:hover::after {
   display: inline-block;
 }
 
+.logo:hover {
+  box-shadow: 0 0 30px 5px var(--blue-light);
+  transform: scale(1.02, 1.02);
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+
 /*display content of main element with flex box */
 .content {
   display: flex;
