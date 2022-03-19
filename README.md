@@ -1,4 +1,4 @@
-# profesional-portfolio
+# Sayam-Gautam-Profesional-Portfolio
 
 ![Portfolio Home Preview](./assets/readme-images/homepage.png)
 
@@ -6,15 +6,14 @@
 
 ## Description
 
-The objective of this task is to have a last portfolio, exhibiting the work completed amid the course. It moreover serves as a put to hone and apply concepts learned and change the folio in accordance
+The objective of this task is to have a portfolio, exhibiting the work completed amid the course. It moreover serves as a put to hone and apply concepts learned and change the folio in accordance
 
 # Purpose
 
-To achieve the said task given
-
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+To achieve the said task given<br />
+AS AN employer<br />
+I WANT to view a potential employee's deployed portfolio of work samples<br />
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position<br />
 
 # Features
 
