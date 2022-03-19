@@ -68,10 +68,11 @@ ul a:hover::after {
 /*adding box shadow to make the logo in 3d view */
 .logo {
   object-fit: contain;
-  width: 100px;
+  width: 106px;
   border-radius: 50%;
   box-shadow: 0 5px 10px var(--blue-light);
   display: inline-block;
+  height: 106px;
 }
 
 .logo:hover {
