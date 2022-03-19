@@ -128,7 +128,7 @@ ul a:hover::after {
 .projects,
 .contact-info {
   display: block;
-  min-height: 80vh;
+  min-height: 75vh;
   padding-top: 15vh;
 }
 .project-heading,
@@ -331,6 +331,7 @@ footer {
 
 .home-image:hover {
   color: var(--blue-light);
+  opacity: 1;
 }
 .footer-nav {
   flex: 1;
@@ -338,6 +339,10 @@ footer {
   justify-content: flex-end;
   padding-right: 10px;
 }
+.footer-nav i {
+  padding-right: 10px;
+}
+
 /*media query */
 @media screen and (max-width: 480px) {
   body {
