@@ -17,19 +17,13 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 # Features
 
-GIVEN I need to sample a potential employee's previous work<br />
-WHEN I load their portfolio<br />
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them<br />
-WHEN I click one of the links in the navigation<br />
-THEN the UI scrolls to the corresponding section<br />
-WHEN I click on the link to the section about their work<br />
-THEN the UI scrolls to a section with titled images of the developer's applications<br />
-WHEN I am presented with the developer's first application<br />
-THEN that application's image should be larger in size than the others<br />
-WHEN I click on the images of the applications<br />
-THEN I am taken to that deployed application<br />
-WHEN I resize the page or view the site on various screens and devices<br />
-THEN I am presented with a responsive layout that adapts to my viewport<br />
+When loded the portfoli you can see my resume with the sample of all my previous work.<br />
+You are presented with my name, a recent photo, links to the sections inside the document, my work and how to contact me.<br />
+When cliked on the links in the nav bar it scolls to the particular section.<br />
+When clicked on a particular section the UI scrolls to the said section.<br />
+When seeing any project/work the UI is bigger compared to other said project. <br />
+When clicking on an application it takes you the said application. <br />
+When resizing the media is responsive.
 
 # Built With
 
