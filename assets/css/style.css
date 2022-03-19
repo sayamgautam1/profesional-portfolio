@@ -85,7 +85,7 @@ ul a:hover::after {
 /*display content of main element with flex box */
 .content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   min-height: 80vh;
@@ -129,7 +129,7 @@ ul a:hover::after {
 .contact-info {
   display: block;
   min-height: 100vh;
-  padding-top: 10vh;
+  padding-top: 15vh;
 }
 .project-heading,
 .contact-header {
@@ -274,7 +274,7 @@ ul a:hover::after {
   color: black;
   text-decoration: none;
   transition-duration: 100ms;
-  border-radius: 290486px;
+  border-radius: 30px;
   box-shadow: 0 5px 10px var(--light-font-shade);
   display: inline-block;
   font-size: 20px;
@@ -304,7 +304,7 @@ ul a:hover::after {
 /*each list items acts as a flex container so syling each icons */
 .icons a {
   align-items: center;
-  font-size: 2.5em;
+  font-size: 2em;
   height: fit-content;
   opacity: 0.5;
 }
