@@ -1,7 +1,7 @@
 /* overall properties selector */
 :root {
   --light-font-shade: rgb(105, 105, 105);
-  --blue-light: rgb(180, 224, 232);
+  --blue-light: rgb(92, 163, 176);
 }
 * {
   background-color: fff;
@@ -28,7 +28,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 50px 0;
 }
 nav ul {
   list-style-type: none;
@@ -88,24 +88,29 @@ ul a:hover::after {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  min-height: 100vh;
-  padding: 20px;
+  min-height: 80vh;
+  padding: 20px 0;
   animation: 0.6s ease-in-out 0.3s 1 normal forwards running;
 }
 .about {
   flex: 0 0 auto;
   font-weight: 700;
-  font-size: 3em;
-  line-height: 129.69%;
+  line-height: 1.5;
+  text-align: center;
 }
-
+/*styling inside the about section*/
+.name {
+  font-size: 3em;
+}
+.job {
+  font-size: 2em;
+  color: var(--blue-light);
+}
+.description {
+  font-size: 1.5em;
+}
 .side {
   flex: 0 0 auto;
-}
-
-/*styling inside the about section*/
-.job {
-  color: var(--blue-light);
 }
 
 /*styling inside the side section*/
