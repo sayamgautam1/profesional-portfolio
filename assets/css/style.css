@@ -14,7 +14,8 @@ body {
   box-sizing: border-box;
   font-family: Muli, sans-serif;
   text-decoration: none;
-  margin: 50px;
+  margin: 50px auto;
+  max-width: 1024px;
 }
 /* styling the links */
 a {
@@ -166,7 +167,7 @@ ul a:hover::after {
 }
 .project-desp {
   text-align: center;
-  margin: 10px 0px 20px;
+  /* margin: 10px 0px 20px; */
   color: var(--light-font-shade);
   width: 100%;
   font-style: normal;
@@ -183,7 +184,7 @@ ul a:hover::after {
   /* url(/assets/images/comingsoon.png); */
   background-size: cover;
   background-position: 50% 50%;
-  min-width: 200px;
+  min-width: 150px;
   min-height: 100px;
   flex: 1;
   padding: 10px;
@@ -202,6 +203,8 @@ ul a:hover::after {
 .project-etch-a-sketch {
   flex: 1;
   padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .coming-soon {
@@ -378,7 +381,6 @@ ul a:hover::after {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 100%;
     height: auto;
   }
   .coming-soon {
