@@ -1,8 +1,6 @@
 # profesional-portfolio
 
-```md
 ![Portfolio Home Preview](./assets/readme-images/homepage.png)
-```
 
 [Portfolio website](https://sayamgautam1.github.io/profesional-portfolio/)
 
