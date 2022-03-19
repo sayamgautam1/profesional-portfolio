@@ -94,7 +94,6 @@ ul a:hover::after {
   align-items: center;
   min-height: 80vh;
   padding: 20px 0;
-  animation: 0.6s ease-in-out 0.3s 1 normal forwards running;
 }
 .about {
   flex: 0 0 auto;
@@ -155,7 +154,7 @@ ul a:hover::after {
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
-  line-height: 184.69%;
+  line-height: 1.5;
 }
 
 /*section inside the project page containg all the project boxes */
@@ -190,7 +189,7 @@ ul a:hover::after {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 184.69%;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   max-width: unset;
 }
@@ -202,7 +201,7 @@ ul a:hover::after {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 184.69%;
+  line-height: 1.5;
   letter-spacing: 0.03em;
   max-width: unset;
 }
